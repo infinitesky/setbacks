@@ -279,27 +279,8 @@ Marcus and Blank were working for Southern Californian home-center chain, Handy 
 <!-- End page content -->
 </div>
 
-<script>
-w3.includeHTML();
-// Script to open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-}
- 
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-}
-
-function myFunction(id) {
-    var x = document.getElementById(id);
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else { 
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-
-</script>
+<script src="./js/site.js"></script>
+<script>function myFunction(id){var x=document.getElementById(id); if(x.className.indexOf('w3-show')==-1){x.className += ' w3-show';} else {x.className = x.className.replace(' w3-show','');}}</script>
 
 </body>
 </html>
